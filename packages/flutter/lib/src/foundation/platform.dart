@@ -47,6 +47,8 @@ enum TargetPlatform {
 
   /// iOS: <http://www.apple.com/ios/>
   iOS,
+
+  linux,
 }
 
 /// Override the [defaultTargetPlatform].
