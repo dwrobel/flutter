@@ -524,7 +524,7 @@ class _AppBarState extends State<AppBar> {
       leading: leading,
       middle: title,
       trailing: actions,
-      centerMiddle: widget._getEffectiveCenterTitle(theme),
+      centerMiddle: widget._getEffectiveCenterTitle(theme) == null ? true : widget._getEffectiveCenterTitle(theme),
       middleSpacing: widget.titleSpacing,
     );
 
