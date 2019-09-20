@@ -109,6 +109,7 @@ class Typography extends Diagnosticable {
         black ??= blackCupertino;
         white ??= whiteCupertino;
         break;
+      case TargetPlatform.linux:
       case TargetPlatform.android:
       case TargetPlatform.fuchsia:
         black ??= blackMountainView;
