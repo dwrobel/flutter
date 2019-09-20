@@ -77,6 +77,7 @@ class ModalBarrier extends StatelessWidget {
     assert(!dismissible || semanticsLabel == null || debugCheckHasDirectionality(context));
     bool platformSupportsDismissingBarrier;
     switch (defaultTargetPlatform) {
+      case TargetPlatform.linux:
       case TargetPlatform.android:
       case TargetPlatform.fuchsia:
         platformSupportsDismissingBarrier = false;
