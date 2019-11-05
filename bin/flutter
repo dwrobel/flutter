@@ -145,7 +145,7 @@ FLUTTER_TOOLS_DIR="$FLUTTER_ROOT/packages/flutter_tools"
 SNAPSHOT_PATH="$FLUTTER_ROOT/bin/cache/flutter_tools.snapshot"
 STAMP_PATH="$FLUTTER_ROOT/bin/cache/flutter_tools.stamp"
 SCRIPT_PATH="$FLUTTER_TOOLS_DIR/bin/flutter_tools.dart"
-DART_SDK_PATH="$FLUTTER_ROOT/bin/cache/dart-sdk"
+DART_SDK_PATH="${DART_SDK_PATH:-$FLUTTER_ROOT/bin/cache/dart-sdk}"
 
 DART="$DART_SDK_PATH/bin/dart"
 PUB="$DART_SDK_PATH/bin/pub"
