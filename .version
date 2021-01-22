@@ -1,0 +1,5 @@
+1.22.6
+
+The magic file which determines the flutter version to be downloaded.
+The commit date of this file should be the same as the last commit
+in the 'engine' repository we are using (excluding all our patches).
